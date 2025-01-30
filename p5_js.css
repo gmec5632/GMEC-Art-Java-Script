@@ -1,0 +1,457 @@
+body {
+    
+    font-family: "belina", gabriola, cursive, georgia, "acier display-noir", monospace, agaramond pro, sans-serif;
+    font-size: 115%;
+    background-color: #e3dec1;
+    background: rgba(227, 222, 193);
+    background-image: url();
+    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 0 20px 0 0;
+    clear: both;
+    width: auto;
+    border: #615104;
+    border-radius: 20px;
+    text-align: center;
+    color: purple;
+    margin-right: inherit;
+    margin-left: inherit;
+    margin: center;
+    
+}
+
+/*----------*/
+
+nav {
+    width: 100%;
+    background-color:rgba(250, 249, 242);
+    background-image: url(graphicImages/Watercolor_headerpage.gmec.jpg);
+    justify-content: space-evenly;
+    clear: both;
+    margin: 0 auto;
+    padding: 10px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+nav ul {
+    text-align: center;
+    
+}
+#navigation ul {
+    padding: 0 20px 0 0;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    height:80px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav li {
+    display: inline-block;
+}
+#navigation li {
+    padding: 10px;
+}
+
+nav li a:link {
+    color: black;
+    font-family: gabriola, "belina", cursive; 
+    text-decoration: none;
+    padding: 10px;
+    border: 1px turquoise solid;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#e3e3e3;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
+}
+nav li a:visited {
+    color: #676767;
+}
+nav li a:hover {
+    color: hotpink;
+}
+nav li a:active {
+    color: blue;
+    background-color:#4467f7;
+}
+#navigation a {
+    font-family: "belina", cursive;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#navigation a: hover{ 
+    color: aqua;
+}
+
+#nav id {
+    font-family: georgia, sans-serif, gabriola, cursive;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+#link {
+    font-family: gabriola, "belina", cursive;
+    color: whitesmoke;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+/*----------*/
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.9em;
+}
+h3 {
+    font-size: 2.5em; 
+}
+div{
+    font-size: 2em;
+}
+p {
+    font-size: 1em;
+}
+footer{
+    font-size: .5em;
+}
+
+
+
+/*----------*/
+
+h1 {
+    font-size: 55px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+}
+p {
+    font-size: 16px;
+}
+footer {
+    font-size: 10px;
+}
+/*-------*/
+
+
+h1 {
+    font-size: 7vw;
+}
+h2 {
+    font-size: 3vw;
+}
+div {
+    font-size: 3vw;
+}
+p {
+    font-size: 2vw;
+}
+
+nav {
+    font-size: 1.8vw;
+}
+
+
+
+
+/*----------*/
+#wrapper {
+    width: auto;
+    margin: center;
+    overflow: hidden;
+    background-color: #9e056b;
+}
+#header,
+#main,
+#aside,
+#nav,
+#ul,
+#a,
+#box,
+#flex-wrap,
+#img,
+#svg,
+#link,
+#style,
+#graphic,
+
+
+/*-----------*/
+
+#header {
+    background-color: transparent;
+    margin: auto;
+    width: auto;
+    border-radius: 10px;
+    
+  }
+#header h1{
+    text-align: center;
+    width: auto;
+    height: 150px;
+    color: azure;
+    margin: auto;
+}
+#header h2{
+    float: center inherit;
+    width: auto;
+    color: #ebf5d3;
+    margin: auto;
+}
+#header h3{
+    background-image: none;
+    font-size: 60%;
+    text-align: center;
+    float: center inherit;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+}
+
+#header {
+   font-family: "acierdisplay-noir" monospace, "belina", gabriola, cursive;
+   flex-direction: column-reverse;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: inherit;
+   justify-content: space-evenly;
+   float: center;
+   height: inherit;        
+   width: auto;
+   margin: 12px;    
+   background-color: #9e056b;
+   font-size: 75%;
+   font-weight: 500%;
+   font-style: normal;
+   color: white;
+   
+}
+#header img{
+    background-image: url(graphicImages/Watercolor1.gmec.jpg);
+    width: auto;
+    border: 7px darkgreen solid;
+    justify-content: space-evenly;
+}
+
+/*-----------*/
+
+#main {
+    font-family: gabriola, cursive, georgia, crimsontext-regular, agaramondpro-regular, sans-serif;
+    background-color: rgba(118, 232, 224);
+    border-radius: 20px;
+    color: darkblue;
+    font-size: 60%;
+    clear: both;
+    float: inherit;
+    margin: 12px;
+    width: auto;
+    
+}
+#main img{
+    width: 300px;
+    
+}
+
+img {
+    max-width: 200%;
+    
+}
+
+.webpaintedhorse {
+    width: 100%;
+    height: 70%;
+}
+
+
+
+
+/*----------*/
+
+/*Aside Graphic Typeface*/
+
+#aside {
+    font-family: gabriola, cursive, georgia, crimsontext-regular, agaramondpro-regular, sans-serif;
+    color: darkslateblue solid;
+    background-color: rgba(118, 232, 224);
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px, rgb(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 50%;
+    clear: both;
+    margin: auto;
+    width: 100%;
+    
+}
+
+/*-----------*/
+
+/*Aside-Image Content*/
+
+#aside img{
+    background-image: url(graphicImages/graphic_SVG/WebPaintedHorse.svg);
+    height: auto;
+    width: auto;
+    box-shadow: 5px 5px 5px, rgb(0, 0, 0, 0.1);
+    border: px clear solid;
+    border-radius: 3px;
+    text-align: center;
+    clear: both;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: inherit;
+}
+
+/*----------*/
+
+/*Biography Graphics*/
+
+.biography {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    margin: 5px auto;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.biography img {
+    height: auto;
+    width: auto;
+    border: 1px white solid;
+    border-radius: 20%;
+}
+
+/*----------*/
+
+/*.BlackButterflyLogo {
+    width: 5%;
+    height: 5%;
+}
+  .Lu.C_Monogram.gmec {
+    width: 5%;
+    height: 5%;
+}
+  .Turtle.gmec {
+    width: 5%;
+    height: 5%;
+}*/
+
+.Box Images {
+    background-color: #02183b;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
+    color: blue;
+    text-align: center;
+    padding: 5px;
+    border: yellow solid 1px;
+    height: 10px;
+    width: 12px;
+    line-height: 10px;
+}
+
+/*-----------*/
+
+#graphicCredits {
+    width: auto;
+    margin: 3px auto;
+    padding: 20px 0;
+    border: yellow 3px solid;
+    text-align: center;
+    font-family: Georgia, "Dancing Script", sans-serif;
+    font-size: 16px;
+}
+.graphicImages{
+    background-color: white;
+    justify-content: space-evenly;
+    color: #76e8e0;
+    text-align: center;
+    padding: 0px;
+    border: lavender solid 3px;
+    height: 50%;
+    width: auto;
+    line-height: 50%;
+   
+}
+.graphic_SVG{
+    background-color: white;
+    justify-content: space-evenly;
+    color: #76e8e0;
+    text-align: center;
+    padding: 0px;
+    border: lavender solid 3px;
+    height: 50%;
+    width: auto;
+    line-height: 50%;
+}
+
+#graphic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: auto;
+    border: rgb(158, 5, 107) solid 6px;
+    box-shadow: 10px 10px 10px, rgb(0, 0, 0, 0.1);
+    border-radius: 20px;
+    clear: both;
+    width: auto;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+@media (max-width: 300px){
+    #graphic{
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+}
+@media screen and (max-width: 200px) {
+    #graphic {
+        grid-template-columns: 2fr;
+    }
+    #wrapper {
+        width: 115%;
+    }
+/*#Mom, #Logo, #Paint Brushes, #Artwork {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }*/
+}
+
+/*----------*/
+
+#footer {
+    background-color: lavender;
+    width: auto;
+    margin: auto;
+    font-size: 50%;
+    font-weight: 500;
+    font-style: normal;
+    color: darkblue;
+    text-align: center;
+    
+}
